@@ -312,5 +312,5 @@ export default function createWatcher(model, config) {
     }
   };
 
-  return watcher;
+  return { watcher, ...state};
 }
